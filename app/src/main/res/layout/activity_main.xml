@@ -18,5 +18,4 @@
         style="@style/input_layout"
         android:text="弹出密码验证框" />
 
-
 </LinearLayout>

@@ -23,7 +23,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         initView();
     }
 
@@ -70,7 +69,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     /**
      * 自定义的弹出框
-     *
      */
     private void showButtomSelectDialog() {
         final BottomDialog mDialog = BottomDialog.create(getSupportFragmentManager());
@@ -112,6 +110,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.view:
                 showButtomSelectDialog();
+                break;
+            default:
                 break;
         }
     }
