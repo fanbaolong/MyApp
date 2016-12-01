@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        style="@style/fill_wrap"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <TextView
+            style="@style/text_column"
+            android:drawableLeft="@null"
+            android:drawableRight="@null"
+            android:gravity="center"
+            android:text="请选择方式" />
+
+        <View
+            style="@style/h_line"
+            android:layout_marginLeft="@dimen/dimens_10dp"
+            android:layout_marginRight="@dimen/dimens_10dp" />
+
+        <TextView
+            android:id="@+id/pay_alipay_tv"
+            style="@style/text_column"
+            android:drawableLeft="@mipmap/icon_alipay_s"
+            android:drawablePadding="@dimen/dimens_10dp"
+            android:text="@string/scan_by_alipay" />
+
+        <View
+            style="@style/h_line"
+            android:layout_marginLeft="@dimen/dimens_10dp"
+            android:layout_marginRight="@dimen/dimens_10dp" />
+
+        <TextView
+            android:id="@+id/pay_wechat_tv"
+            style="@style/text_column"
+            android:drawableLeft="@mipmap/icon_wechat_s"
+            android:drawablePadding="@dimen/dimens_10dp"
+            android:text="@string/scan_by_wechat" />
+    </LinearLayout>
+
+</RelativeLayout>

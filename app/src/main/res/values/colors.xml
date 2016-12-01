@@ -1,6 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+
+    <!-- title -->
+    <color name="title_bg">#f3f3f6</color>
+    <color name="title_back_color_normal">#00479D</color>
+    <color name="title_back_color_press">#3e3e3e</color>
+    <color name="titlt_text_color">#000000</color>
+    <color name="titlt_text_bg_press">#b2b6bb</color>
+    <color name="titlt_search_bg">#e3e3e5</color>
+    <color name="titlt_search_textcolor">#888889</color>
+    
+     <color name="transparent">#9000</color>
+    
+    <!-- mian -->
+    <color name="bg_gray">#EBEBF2</color>
+    <color name="getcode_text_color">#4171B8</color>
+    <color name="amt_bg">#E2E4E5</color>
+    <color name="wechat_gray_bg">#A7A9AE</color>
+    <color name="wechat_main_bg">#3CB035</color>
+    <color name="alipay_main_bg">#f2f2f2</color>
+    <color name="trans_amt_s">#4171b8</color>
+    <color name="trans_amt_f">#EC111B</color>
+    <color name="trans_amt_n">#929292</color>
+    <color name="text_tip_color">#666666</color>
+    <color name="text_blue">#00479D</color>
+    <color name="text_number">#272636</color>
+    <color name="return_search_layout_bg">#C7C7CB</color>
+    <color name="reached_line_bg">#00479D</color>
+    <color name="unreached_line_bg">#e1dddf</color>
+    
+    <!-- btn -->
+    <color name="btn_basic_normal">#00479D</color>
+    <color name="btn_basic_press">#4171b8</color>
+    
+    <!-- sign -->
+    <color name="step_text_color">#00479D</color>
+    <color name="step_cur_color">#00479D</color>
+    
+    <!-- normal -->
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="gray02">#F0F0F0</color>
+    <color name="black_l">#464957</color>
+    <color name="dark_gray">#a1a4a4</color>
+    <color name="item_gray_press">#DCDCDC</color>
+    <color name="line_color">#dcdcdc</color>
+    <color name="title_underline_color">#a4a4a9</color>
+    <color name="login_edit_color">#3c3c3c</color>
+    <color name="login_edit_hint_color">#b3b3b3</color>
+    <color name="forget_pass_text_color">#555555</color>
+    <color name="dialog_text_press">#1F75B0</color>
+    <color name="list_select">#C53336</color>
+    <color name="title_unline">#bbbbbb</color>
+    <color name="number_press">#e9e7dc</color>
+    <color name="tabs_bg">#f6f6f8</color>
+    <color name="tabs_text_normal">#929292</color>
+    <color name="tabs_text_check">#4d7abc</color>
+     <!-- pickView -->
+    <color name="pickerview_wheelview_textcolor_out">#a8a8a8</color>
+    <color name="pickerview_wheelview_textcolor_center">#2a2a2a</color>
+    <color name="pickerview_wheelview_textcolor_divider">#d5d5d5</color>
+    <!-- 覆盖颜色 -->
+    <color name="bgColor_overlay">#60000000</color>
+    
+      <!-- 下拉刷新 -->
+    <color name="pull_to_refresh_text">#777</color>
+    <color name="pull_to_refresh_sub_text">#999</color>
+    <color name="background_tab_pressed">#6633B5E5</color>
+
 </resources>

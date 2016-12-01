@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        style="@style/fill_wrap"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            style="@style/input_layout"
+            android:layout_height="@dimen/dimens_50dp"
+            android:background="@color/bg_gray" >
+
+            <TextView
+                android:id="@+id/tv_title"
+                style="@style/wrap_wrap"
+                android:layout_centerInParent="true"
+                android:text=""
+                android:textColor="@color/text_blue"
+                android:textSize="@dimen/text_h3" />
+
+            <TextView
+                android:id="@+id/tv_dismiss"
+                style="@style/wrap_wrap"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:padding="@dimen/dimens_10dp"
+                android:text="取消"
+                android:textColor="@color/text_blue"
+                android:textSize="@dimen/text_h3" />
+        </RelativeLayout>
+
+        <View
+            style="@style/h_line"
+            android:layout_height="@dimen/dimens_1dp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimens_250dp" >
+
+            <LinearLayout
+                style="@style/fill_wrap"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/tv_payment_pwd"
+                    style="@style/text_basic"
+                    android:layout_height="@dimen/dimens_50dp"
+                    android:background="@color/bg_gray"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_h0" />
+
+                <LinearLayout
+                    style="@style/layout_payment_pwd"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/tv1"
+                        style="@style/text_full"
+                        android:layout_gravity="center"
+                        android:text="@string/number_1" />
+
+                    <View style="@style/v_line" />
+
+                    <TextView
+                        android:id="@+id/tv2"
+                        style="@style/text_full"
+                        android:layout_gravity="center"
+                        android:text="@string/number_2" />
+
+                    <View style="@style/v_line" />
+
+                    <TextView
+                        android:id="@+id/tv3"
+                        style="@style/text_full"
+                        android:layout_gravity="center"
+                        android:text="@string/number_3" />
+                </LinearLayout>
+
+                <View style="@style/h_line" />
+
+                <LinearLayout
+                    style="@style/layout_payment_pwd"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/tv4"
+                        style="@style/text_full"
+                        android:layout_gravity="center"
+                        android:text="@string/number_4" />
+
+                    <View style="@style/v_line" />
+
+                    <TextView
+                        android:id="@+id/tv5"
+                        style="@style/text_full"
+                        android:layout_gravity="center"
+                        android:text="@string/number_5" />
+
+                    <View style="@style/v_line" />
+
+                    <TextView
+                        android:id="@+id/tv6"
+                        style="@style/text_full"
+                        android:layout_gravity="center"
+                        android:text="@string/number_6" />
+                </LinearLayout>
+
+                <View style="@style/h_line" />
+
+                <LinearLayout
+                    style="@style/layout_payment_pwd"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/tv7"
+                        style="@style/text_full"
+                        android:layout_gravity="center"
+                        android:text="@string/number_7" />
+
+                    <View style="@style/v_line" />
+
+                    <TextView
+                        android:id="@+id/tv8"
+                        style="@style/text_full"
+                        android:layout_gravity="center"
+                        android:text="@string/number_8" />
+
+                    <View style="@style/v_line" />
+
+                    <TextView
+                        android:id="@+id/tv9"
+                        style="@style/text_full"
+                        android:layout_gravity="center"
+                        android:text="@string/number_9" />
+                </LinearLayout>
+
+                <View style="@style/h_line" />
+
+                <LinearLayout
+                    style="@style/layout_payment_pwd"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/tv_clean"
+                        style="@style/text_full"
+                        android:layout_gravity="center"
+                        android:background="@color/bg_gray"
+                        android:text="@string/number_del" />
+
+                    <View style="@style/v_line" />
+
+                    <TextView
+                        android:id="@+id/tv0"
+                        style="@style/text_full"
+                        android:layout_gravity="center"
+                        android:text="@string/number_0" />
+
+                    <View style="@style/v_line" />
+
+                    <RelativeLayout
+                        android:id="@+id/relat_del"
+                        style="@style/text_full"
+                        android:background="@color/bg_gray" >
+
+                        <ImageView
+                            style="@style/wrap_wrap"
+                            android:layout_centerInParent="true"
+                            android:contentDescription="@null"
+                            android:src="@mipmap/ic_pay_del" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="@style/fill_fill"
+                android:layout_gravity="center"
+                android:background="@color/bg_gray"
+                android:indeterminateDrawable="@drawable/progressbar_style"
+                android:visibility="gone" />
+        </FrameLayout>
+    </LinearLayout>
+
+</RelativeLayout>

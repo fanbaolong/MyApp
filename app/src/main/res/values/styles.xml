@@ -3,9 +3,6 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
     </style>
 
     <style name="BottomDialog" parent="@android:style/Theme.Dialog">
@@ -18,6 +15,86 @@
     <style name="BottomDialog.AnimationStyle" parent="android:Animation">
         <item name="android:windowEnterAnimation">@anim/slide_in_from_bottom</item>
         <item name="android:windowExitAnimation">@anim/slide_out_to_bottom</item>
+    </style>
+
+    <!-- 比较常用的宽高 -->
+    <style name="wrap_wrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="wrap_fill">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+
+    <style name="fill_wrap">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="fill_fill" parent="AppTheme">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <!-- login_relat -->
+    <style name="input_layout" parent="fill_fill">
+        <item name="android:layout_height">45dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+    </style>
+
+    <!-- 高为45固定，宽充满，文字靠左的textview -->
+    <style name="text_basic" parent="fill_wrap">
+        <item name="android:layout_height">@dimen/dimens_40dp</item>
+        <item name="android:textColor">@color/text_tip_color</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">@dimen/text_h4</item>
+    </style>
+
+    <!-- 横向线条 -->
+    <style name="h_line">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:background">@color/line_color</item>
+    </style>
+    <!-- 纵向线条 -->
+    <style name="v_line">
+        <item name="android:layout_width">1px</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:background">@color/line_color</item>
+    </style>
+
+    <!-- layout -->
+    <style name="layout_payment_pwd" parent="fill_fill">
+        <item name="android:layout_height">@dimen/dimens_50dp</item>
+    </style>
+    <!-- #长宽都是warp 的text -->
+    <style name="normal_text" parent="wrap_wrap">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/text_h2</item>
+    </style>
+    <!-- 宽权重为1 的text -->
+    <style name="text_weight_1" parent="normal_text">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    <!-- 宽高都充满的text -->
+    <style name="text_full" parent="text_weight_1">
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:textSize">@dimen/text_number</item>
+        <item name="android:background">@drawable/number_bg</item>
+    </style>
+
+    <!-- 商户中心中带向右箭头的textview -->
+    <style name="text_column" >
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/dimens_50dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:textSize">@dimen/text_h3</item>
+        <item name="android:background">@drawable/bg_item_categroy</item>
     </style>
 
 </resources>
