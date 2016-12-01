@@ -11,10 +11,9 @@ import android.widget.Toast;
 import example.myapp.view.BottomDialog;
 
 /**
- *
+ *create by fanbaolong on 2016-12-01
  */
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
-
 
     private Button mBtnPwd;
     private Button mView;
