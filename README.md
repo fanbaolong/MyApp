@@ -579,6 +579,8 @@ public class ManagerPwdView implements OnClickListener{
 ```
 
 关于密码框的，这里因为需求问题没有做文字框框，如果需要文字框框的，可以看下我github上另一个项目[https://github.com/fanbaolong/TestPassword](https://github.com/fanbaolong/TestPassword)
+
 ![Alt text](./1480670697391.png)
+
 
 
