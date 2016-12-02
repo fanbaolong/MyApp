@@ -80,9 +80,9 @@ public class ManagerPwdView implements OnClickListener{
 		this.progressBar = (ProgressBar) view.findViewById(R.id.progressBar);
 
 		if( mType == 0 )
-			this.tv_title.setText("验证主管密码");
+			this.tv_title.setText("验证支付密码");
 		else 
-			this.tv_title.setText("设置主管密码");
+			this.tv_title.setText("设置支付密码");
 
 		this.tv0.setOnClickListener(this);
 		this.tv1.setOnClickListener(this);
